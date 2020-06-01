@@ -1,0 +1,84 @@
+
+body {
+    background: #000000;
+    background-image: url('images/cute.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Helvetica Now", "Helvetica Now", Verdana,
+    sans-serif;
+    line-height: 1.5;
+    }
+    
+    
+    .container {
+    margin: 0 auto;
+    width: 1200px;
+    }
+    
+    article {
+    background-color: #e90d0d;
+    border: 1px solid #e90d0d;
+    border-color: #e8f800 #e8f800 #e8f800 #e8f800;
+    margin-bottom: 20px;
+    padding: 10px;
+    }
+    
+    
+    article h2 {
+    border-bottom: 1px dashed #e8f800;
+    margin: 0;
+    }
+    
+    article img {
+    border: 1px solid #e8f800;
+    float: none;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+    width: 300px;
+    height: 300px;
+    }
+    
+    article a {
+    color:rgb(165, 211, 0);
+    font-weight: bolder;
+    }
+    
+    header h1 a {
+    color: #ffffcc;
+    text-decoration: thickness 5px;
+    margin-left:20px;
+    text-shadow: 5px 5px 2px #2c2a2a;
+    }
+    
+    
+    header h1 a:hover { 
+    background-color: #000000;
+    color: #FFF;
+    }
+    
+    .clear { 
+    clear: both;
+    }
+    
+    section {
+    float: left;
+    width: 500px;
+    }
+    
+    aside {
+    background-color: #e90d0d;
+    border: 1px solid #e8f800;
+    padding: 10px;
+    float: right;
+    width: 260px;
+    }
+    
+    aside h3 {
+    font-size: 15px;
+    margin-top: 0;
+    }
+    
+    aside ol {
+    font-size: 13px;
+    }
